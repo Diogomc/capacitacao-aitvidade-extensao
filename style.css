@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    background-color: #486623;
+}
+
+.menu-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu li a:hover {
+    background-color: rgb(44, 61, 11);
+    transition: 0.7s;
+}
+.first-container{
+    background-image: url(papagaio.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-title{
+    color: #fff;
+    font-size: 40px;
+    margin: 40px 0 0px 90px;
+}
+.title-description{
+    color: #fff;
+    font-size: 20px;
+    margin: 40px 0 30px 90px;
+
+
+}
+.btn-know-us{
+    width: 150px;
+    color: #fff;
+    background-color: #486623;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px 0 20px 90px;
+
+}
+.btn-know-us:hover{
+    cursor: pointer;
+    background-color: rgb(44, 61, 11);
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.image-principal{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.container-img{
+    background-color: #486623;
+    height: 500px;
+    margin: 10px;
+
+}
+.btn-projects{
+    background-color: rgb(44, 61, 11);
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+.title-img{
+    padding: 10px;
+}
+.container-img:hover{
+    transform: scale(1.02);
+    transition: 0.9s;
+}
+.text-img{
+    padding: 10px;
+}
