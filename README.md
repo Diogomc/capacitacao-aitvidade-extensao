@@ -82,3 +82,4 @@ h1, h2, p, button: Estilos padrão para cabeçalhos, parágrafos e botões, apli
 <h2>5. Estrutura Responsiva e Configurações Específicas</h2>
 @media (max-width: Xpx): Define estilos para dispositivos móveis, ajustando tamanhos e espaçamentos para melhor visualização em telas menores.
 Configurações específicas para display: flex ou grid: Organizam elementos em layouts responsivos para alinhamento e espaçamento consistentes entre seções e itens.
+
